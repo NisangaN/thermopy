@@ -45,7 +45,7 @@ See the documentation for further details and examples.
 """)
 
 
-setup(name="thermopy",
+setup(name="thermopy2",
       version=thermopy.__version__,
       description='Python package for thermodynamic calculations and units '
                   'conversion.',
@@ -54,7 +54,7 @@ setup(name="thermopy",
       author_email="evotodi@gmail.com",
       url="github: https://github.com/evotodi/thermopy",
       license="GPL",
-      packages=['thermopy2'],
+      packages=find_packages(),
       include_package_data=True,
       data_files=[('databases', ['databases/burcat_thr.xml',
                                  'databases/nasa9polynomials.xml'])],

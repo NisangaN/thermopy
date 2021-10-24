@@ -7,3 +7,6 @@ Adel Qalieh <adelq@sas.upenn.edu>
 
 Version 0.5:
 Felipe M. Vieira <fmv1992@gmail.com>
+
+Version 0.5.5:
+Justin Davis <evotodi@gmail.com>

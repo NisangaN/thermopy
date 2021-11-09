@@ -467,7 +467,6 @@ Btu = Btu_IT = pound * degree_Fahrenheit * calorie_IT / gram
 ton_TNT = 1e9 * calorie_th
 kWh = kilo * hour
 Wh = hour
-
 # power in watt
 # hp = horsepower = 550 * foot * pound * g
 

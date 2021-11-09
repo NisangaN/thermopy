@@ -448,6 +448,8 @@ class Energy(float):
             return self.__factory(self.data * constants.kWh)
         elif units == 'Wh':
             return self.__factory(self.data * constants.Wh)
+        elif units == 'Btuh':
+            return self.__factory((self.data * constants.Wh) / 3.412141633)
 
     @property
     def Btu(self):
@@ -468,3 +470,8 @@ class Energy(float):
     def Wh(self):
         u"""Property of Wh unit."""
         return self.__factory(self.data / constants.Wh)
+
+    @property
+    def Btuh(self):
+        u"""Property of Btuh unit."""
+        return self.__factory((self.data / constants.Wh) * 3.412141633)
